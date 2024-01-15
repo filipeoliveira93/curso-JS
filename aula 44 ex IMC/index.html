@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculo IMCS</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <label for="peso">
+        <input type="text" name="peso" id="peso" placeholder="informe seu peso em kg" value="" />
+      </label>
+      <label for="altura">
+        <input type="text" name="altura" id="altura" placeholder="informe sua altura em cm" value="1.73" />
+      </label>
+      <button type="button" id="calcular">calcular IMC</button>
+      <span class="result">
+        <div class="opcoes" id="opcoes">
+          <p>ABAIXO DO PESO</p>
+          <p>PESO NORMAL</p>
+          <p>SOBREPESO</p>
+          <p>OBESIDADE GRAU 1</p>
+          <p>OBESIDADE GRAU 2</p>
+          <p>OBESIDADE GRAU 3</p>
+        </div>
+      </span>
+      <p id="imc">IMC</p>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
