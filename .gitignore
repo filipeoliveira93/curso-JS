@@ -1,0 +1,54 @@
+# Ignorar arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar diretórios específicos
+node_modules/
+build/
+dist/
+out/
+
+# Ignorar arquivos de compilação ou logs
+*.log
+*.log.*
+npm-debug.log*
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar arquivos de dependências
+*.pem
+*.p12
+*.suo
+*.user
+*.bak
+*.swp
+*.class
+*.o
+*.ko
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de compilação ou configuração
+/.idea/
+/.vscode/
+/.vs/
+
+# Ignorar arquivos de produção
+/build/
+/dist/
+/out/
+
+# Ignorar arquivos de configuração do editor
+.idea/
+*.code-workspace
+
+# Ignorar arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
