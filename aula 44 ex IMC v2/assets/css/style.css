@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(58, 58, 58);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  /* font-size: 1.3em; */
+  /* line-height: 1.5em; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.container #imc {
+  width: 80px;
+  height: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.result {
+  width: 195px;
+  height: 28px;
+  padding-top: 2px;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px #ffffff solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.opcoes {
+  margin-top: 20px;
+  transition: 0.3s ease;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+}
+.opcoes p {
+  border: 1px solid rgba(255, 255, 255, 0.963);
+  margin: 0px;
+  text-align: center;
+}
